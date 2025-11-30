@@ -1,0 +1,14 @@
+services:
+  server:
+    container_name: hello-world-server
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    ports:
+      - '80:80'
+      - '8071:8071'
+      - '8072:8072'
+      - '8073:8073'
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf:ro
+    restart: always
