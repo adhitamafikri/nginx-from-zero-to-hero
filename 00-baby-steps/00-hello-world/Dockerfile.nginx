@@ -3,7 +3,4 @@ FROM nginx:1.28.0 AS hello-world-example
 RUN rm /etc/nginx/conf.d/default.conf || true
 COPY nginx.conf /etc/nginx/nginx.conf
 
-# EXPOSE 80
 EXPOSE 80 8071 8072 8073
-
-CMD ["nginx", "-g", "daemon off;"]
