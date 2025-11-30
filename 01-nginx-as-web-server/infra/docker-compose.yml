@@ -1,0 +1,11 @@
+services:
+  nginx:
+    container_name: static-web-server
+    build:
+      context: ../
+      dockerfile: ./infra/nginx/Dockerfile.nginx
+      target: vite-react-ts-example
+    ports:
+      - '8085:80'
+    restart:
+      unless-stopped
