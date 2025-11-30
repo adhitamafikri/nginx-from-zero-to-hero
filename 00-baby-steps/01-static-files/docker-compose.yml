@@ -1,0 +1,9 @@
+services:
+  nginx:
+    container_name: nginx-static-files-example
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    ports:
+      - '8889:8889'
+    restart: unless-stopped
