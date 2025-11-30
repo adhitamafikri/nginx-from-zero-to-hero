@@ -1,5 +1,5 @@
 services:
-  nginx:
+  web:
     container_name: static-web-server
     build:
       context: ../
@@ -7,5 +7,7 @@ services:
       target: vite-react-ts-example
     ports:
       - '8085:80'
+    # volumes:
+    #   - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
     restart:
       unless-stopped

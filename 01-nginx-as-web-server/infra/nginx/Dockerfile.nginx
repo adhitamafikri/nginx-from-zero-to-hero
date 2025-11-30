@@ -1,8 +1,8 @@
-# FROM nginx:1.28-alpine-slim AS static-example
+FROM nginx:1.28-alpine-slim AS static-example
 
-# COPY static/ /usr/share/nginx/html
+COPY static/ /usr/share/nginx/html
 
-# EXPOSE 80
+EXPOSE 80
 
 FROM nginx:1.28-alpine-slim AS vite-react-ts-example
 
