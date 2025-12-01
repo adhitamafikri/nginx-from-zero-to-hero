@@ -1,0 +1,9 @@
+services:
+  nginx:
+    container_name: nginx-workers-example
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    ports:
+      - '8823:8823'
+    restart: always
