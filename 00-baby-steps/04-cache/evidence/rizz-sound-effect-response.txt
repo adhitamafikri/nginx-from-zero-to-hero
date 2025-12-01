@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.28.0
+Date: Mon, 01 Dec 2025 15:45:58 GMT
+Content-Type: audio/mpeg
+Content-Length: 77462
+Last-Modified: Mon, 01 Dec 2025 15:29:52 GMT
+Connection: keep-alive
+ETag: "692db470-12e96"
+Expires: Mon, 08 Dec 2025 15:45:58 GMT
+Cache-Control: max-age=604800
+Cache-Control: public, max-age=604800
+Pragma: public
+Accept-Ranges: bytes
+

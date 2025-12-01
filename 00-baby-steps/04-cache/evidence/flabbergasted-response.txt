@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx/1.28.0
+Date: Mon, 01 Dec 2025 15:46:26 GMT
+Content-Type: image/jpeg
+Content-Length: 81032
+Last-Modified: Mon, 01 Dec 2025 15:29:40 GMT
+Connection: keep-alive
+ETag: "692db464-13c88"
+Expires: Thu, 04 Dec 2025 15:46:26 GMT
+Cache-Control: max-age=259200
+Cache-Control: public, max-age=259200
+Pragma: public
+Vary: Accept-Encoding
+Accept-Ranges: bytes
+
