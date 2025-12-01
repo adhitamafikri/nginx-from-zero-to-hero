@@ -5,5 +5,5 @@ services:
       context: .
       dockerfile: Dockerfile.nginx
     ports:
-      - '8802:8802'
+      - '8822:8822'
     restart: always
