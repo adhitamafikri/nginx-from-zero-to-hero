@@ -1,0 +1,9 @@
+services:
+  nginx:
+    container_name: nginx-location-and-route-example
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    ports:
+      - '8802:8802'
+    restart: always

@@ -1,0 +1,6 @@
+FROM nginx:1.28-alpine-slim AS static-files-example
+
+RUN rm /etc/nginx/conf.d/default.conf || true
+COPY nginx.conf /etc/nginx/nginx.conf
+
+EXPOSE 8802
