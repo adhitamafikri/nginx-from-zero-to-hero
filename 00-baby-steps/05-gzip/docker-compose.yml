@@ -1,0 +1,9 @@
+services:
+  nginx:
+    container_name: nginx-gzip-example
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    ports:
+      - '8825:8825'
+    restart: always
