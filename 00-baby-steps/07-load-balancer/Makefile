@@ -9,3 +9,7 @@ down:
 .PHONY: ps
 ps:
 	docker compose ps
+
+.PHONY: load-test
+load-test:
+	docker compose run --rm k6
